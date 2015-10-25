@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cours id="1" titre="Logique">
+	<description>
+	****************************
+	* Définition de logique:
+	****************************
+	La logique est la science qui enseigne à raisonner juste.
+	Il s'agit d'une science formelle dépourvue de contenu, consacrée à l'étude de procédés de raisonnement.
+	Autrement dit, c'est l'étude des méthodes et des principes utilisés pour distinguer le raisonnement correct de l'incorrect.
+	Le philosophe grec Aristote fut le pionnier à employer la notion pour désigner l'étude des arguments en tant que manifestants de la vérité dans la science et est l'ancêtre du syllogisme, qui permet de valider la véracité formelle de la conclusion.
+
+	**************************
+	* A quoi sert la logique?
+	**************************
+	La logique a connu d'incroyables progrès depuis deux siècles.
+	On y a découvert l'infinie variété des infinis si grands qu'on en a le vertige.
+	La logique moderne des sciences s'adresse aussi bien au mathématicien qu'au philosophe et au curieux intrigué par le monde abstrait des raisonnements.
+	La science logique évolue, se renouvelle et, abordant parfois des questions étonnantes, amuse autant qu'elle intrigue par sa puissance et la témérité de ses méthodes.
+	
+	</description>
+	<concept titre="Proposition">
+		<prerequisites>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Proposition.pdf</contenu>
+		</contenus>
+		<test>
+			<question type="QCM">
+				<header>La logique de  proposition appelée toute expression qui peut être dite:</header>
+				<reponse correcte="correcte">Vraie ou fausse</reponse>
+				<reponse>Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="VraiFaux">
+				<header>Les propositions restent inanalysées, atomiques:</header>
+				<reponse correcte="correcte">Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="QCM">
+				<header>Dans Logique Des Proposition Une phrase peut contenir:</header>
+				<reponse correcte="correcte">plusieurs propositions</reponse>
+				<reponse>Une Selue propositions</reponse>
+			</question>
+			<question type="VraiFaux">
+				<header>Les connecteurs sont des opérateurs qui permettent, en reliant deux propositions:</header>
+				<reponse correcte="correcte">Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="VraiFaux">
+				<header>La définition récursive précédente ne donner pas, pour tout formule bien formée,un arbre de construction (ou de décomposition):</header>
+				<reponse>Vrai</reponse>
+				<reponse correcte="correcte">Faux</reponse>
+			</question>
+		</test>
+	</concept>
+
+	<concept titre="Connective">
+		<prerequisites>
+			<prerequisite>Proposition</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Connective.pdf</contenu>
+		</contenus>
+		<test>
+			<question type="Completer">
+				<header>We consider the deduction problem in the existential ............ fragment of first order logic with atomic negation.</header>
+				<reponse>Normale</reponse>
+				<reponse correcte="correcte">conjunctive</reponse>
+				<reponse>Automatique</reponse>
+			</question>
+			<question type="VraiFaux">
+				<header>Le principe général des expérimentations sur données aléatoires consiste à générer un jeu de test en fixant certains paramètres et en en faisant évoluer un (ou plusieurs) autre:</header>
+				<reponse>Vrai</reponse>
+				<reponse correcte="correcte">Faux</reponse>
+			</question>
+		</test>
+	</concept>
+	<concept titre="FormalCharacteristic">
+		<prerequisites>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">FormalCharacteristic.pdf</contenu>
+		</contenus>
+		<test>
+			<question type="VraiFaux">
+				<header>On dsigne par k un corps de caractristique p > 0,K son corps des fractions</header>
+				<reponse>Vrai</reponse>
+				<reponse correcte="correcte">Faux</reponse>
+			</question>	
+		</test>
+	</concept>
+
+	<concept titre="Formula">
+		<prerequisites>
+			<prerequisite>Connective</prerequisite>
+			<prerequisite>FormalCharacteristic</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Formula.pdf</contenu>
+		</contenus>
+		<test>
+			<question type="Completer">
+				<header>Une logique....... .... .consiste en un ensemble de formules</header>
+				<reponse>Normale</reponse>
+				<reponse correcte="correcte">Formelle</reponse>
+				<reponse>Automatique</reponse>
+			</question>
+			<question type="VraiFaux">
+				<header>Les formules de la logique propositionnelle sont des assemblages de variables à l'aide de connecteurs?</header>
+				<reponse correcte="correcte">Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="QCM">
+				<header>On dit que H se déduit par coupure à partir de F et G si G est la formule F=&gt;?</header>
+				<reponse correcte="correcte">F=H</reponse>
+				<reponse>F=G</reponse>
+			</question>
+		</test>
+	</concept>
+	<concept titre="Calculus">
+		<prerequisites>
+			<prerequisite>FormalCharacteristic</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Calculus.pdf</contenu>
+		</contenus>
+		<test>
+		</test>
+	</concept>
+	
+	<concept titre="Interpretation">
+		<prerequisites>
+			<prerequisite>Formula</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Interpretation.pdf</contenu>
+			<contenu type-de-contenu="YouTube">www.youtube.com/watch?v=neg1TWE5kl0</contenu>
+		</contenus>
+		<test>
+			<question type="VraiFaux">
+				<header>Une interprétation d'une formule est un modèle de cette formule si la formule est vraie pour cette interprétation</header>
+				<reponse correcte="correcte">Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="Completer">
+				<header>Une formule est .......... (tautologie) si elle est vraie quelque soit l'interprétation (si toute interprétation est un modèle)</header>
+				<reponse>Normale</reponse>
+				<reponse correcte="correcte">Valide</reponse>
+				<reponse>Automatique</reponse>
+			</question>
+		</test>
+	</concept>
+	<concept titre="Subformula">
+		<prerequisites>
+			<prerequisite>Formula</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Subformula.pdf</contenu>
+		</contenus>
+		<test>
+			<question type="VraiFaux">
+				<header>Une interprétation d'une formule est un modèle de cette formule si la formule est vraie pour cette interprétation</header>
+				<reponse correcte="correcte">Vrai</reponse>
+				<reponse>Faux</reponse>
+			</question>
+			<question type="Completer">
+				<header>Une formule est .......... (tautologie) si elle est vraie quelque soit l'interprétation (si toute interprétation est un modèle)</header>
+				<reponse>Normale</reponse>
+				<reponse correcte="correcte">valide</reponse>
+				<reponse>Automatique</reponse>
+			</question>
+		</test>
+	</concept>
+	<concept titre="Argumentation">
+		<prerequisites>
+			<prerequisite>Formula</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Argumentation.pdf</contenu>
+		</contenus>
+		<test>
+		</test>
+	</concept>
+	<concept titre="CDN">
+		<prerequisites>
+			<prerequisite>Calculus</prerequisite>
+		</prerequisites>
+		<contenus>
+			
+		</contenus>
+		<test>
+		</test>
+	</concept>
+	<concept titre="Deduction">
+		<prerequisites>
+			<prerequisite>Calculus</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Deduction.pdf</contenu>
+		</contenus>
+		<test>
+		</test>
+	</concept>
+
+	<concept titre="CDNDedction">
+		<prerequisites>
+			<prerequisite>CDN</prerequisite>
+		</prerequisites>
+		<contenus>
+			
+		</contenus>
+		<test>
+		</test>
+	</concept>
+	<concept titre="CDNRule">
+		<prerequisites>
+			<prerequisite>CDN</prerequisite>
+		</prerequisites>
+		<contenus>
+			
+		</contenus>
+		<test>
+		</test>
+	</concept>
+
+	<concept titre="DerivedRule">
+		<prerequisites>
+			<prerequisite>CDNDedction</prerequisite>
+		</prerequisites>
+		<contenus>
+			<contenu type-de-contenu="pdf">Derived.pdf</contenu>
+		</contenus>
+		<test>
+		</test>
+	</concept>
+	<concept titre="CDNBasicRule">
+		<prerequisites>
+			<prerequisite>CDNRule</prerequisite>
+		</prerequisites>
+		<contenus>
+			
+		</contenus>
+		<test>
+		</test>
+	</concept>
+</cours>

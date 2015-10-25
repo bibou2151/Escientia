@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><notes username="Admin">
+	<cours id="1">
+	    <progress target=""/>
+	    
+		<concept titre="Proposition">60.0</concept>
+		<concept titre="Connective">0.0</concept>
+		<concept titre="Formula">0.0</concept>
+		<concept titre="Interpretation">0.0</concept>
+		<concept titre="Subformula">0.0</concept>
+		<concept titre="Argumentation">0.0</concept>
+		<concept titre="FormalCharacteristic">0.0</concept>
+		<concept titre="Calculus">0.0</concept>
+		<concept titre="Deduction">0.0</concept>
+		<concept titre="CDN">0.0</concept>
+		<concept titre="CDNDedction">0.0</concept>
+		<concept titre="CDNRule">0.0</concept>
+		<concept titre="DerivedRule">0.0</concept>
+		<concept titre="CDNBasicRule">0.0</concept>
+	</cours>
+</notes>
